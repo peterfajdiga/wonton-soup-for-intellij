@@ -3,6 +3,8 @@
     "author": "Peter Fajdiga",
     "dark": true,
 
+    "editorScheme": "/theme/WontonSoup.editorScheme.xml",
+
     "colors": {
         "windowBg": "#494e58",
         "windowFg": "#b6c1d0",
