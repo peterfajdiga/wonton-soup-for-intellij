@@ -17,15 +17,13 @@
         "DefaultTabs": {
             "underlineColor": "#78889c",
             "hoverBackground": "#7795b3",
-            "background": "#3d4149",
-            "underlinedTabBackground": "#494e58"
+            "underlinedTabBackground": "#5a606b"
         },
 
         "EditorTabs": {
             "underlineColor": "#78889c",
             "hoverBackground": "#7795b3",
-            "background": "#3d4149",
-            "underlinedTabBackground": "#494e58"
+            "underlinedTabBackground": "#5a606b"
         },
 
         "ToolWindow": {
