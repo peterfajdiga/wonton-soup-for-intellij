@@ -2,10 +2,9 @@
     "name": "IntellijWontonSoup",
     "author": "Peter Fajdiga",
     "dark": true,
-    "colors": {
-        "primaryRed": "#821010"
-    },
     "ui": {
-        "Button.background": "primaryRed"
+        "*": {
+            "background": "#494e58"
+        }
     }
 }
