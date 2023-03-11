@@ -8,13 +8,21 @@
         "selectionBg": "#78889c",
         "hoverBg": "#7795b3",
         "activeBg": "#5a606b",
-        "activeFg": "#b6c1d0"
+        "activeFg": "#b6c1d0",
+        "buttonBg": "#525863"
     },
     "ui": {
         "*": {
             "background": "windowBg",
             "borderColor": "separator",
             "separatorColor": "separator"
+        },
+
+        "ActionButton": {
+            "hoverBackground": "#00000000",
+            "hoverBorderColor": "hoverBg",
+            "pressedBackground": "activeBg",
+            "pressedBorderColor": "hoverBg"
         },
 
         "Borders": {
