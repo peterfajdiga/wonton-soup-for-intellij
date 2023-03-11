@@ -13,6 +13,7 @@
         "buttonBorder": "#78808d",
         "defaultBg": "#5a626e",
         "defaultBorder": "#7a8697",
+        "hoverBg": "#bdd7ff18",
         "hoverBorder": "#7795b3",
         "focusBorder": "#7d8d99"
     },
@@ -61,7 +62,7 @@
         "DefaultTabs": {
             "underlineColor": "selectionBg",
             "inactiveUnderlineColor": "#00000000",
-            "hoverBackground": "hoverBorder",
+            "hoverBackground": "hoverBg",
             "underlinedTabBackground": "activeBg",
             "underlinedTabForeground": "activeFg"
         },
@@ -69,7 +70,7 @@
         "EditorTabs": {
             "underlineColor": "selectionBg",
             "inactiveUnderlineColor": "#00000000",
-            "hoverBackground": "hoverBorder",
+            "hoverBackground": "hoverBg",
             "underlinedTabBackground": "activeBg",
             "underlinedTabForeground": "activeFg"
         },
@@ -82,15 +83,15 @@
 
             "HeaderTab": {
                 "selectedInactiveBackground": "windowBg",
-                "hoverBackground": "hoverBorder",
-                "hoverInactiveBackground": "hoverBorder",
+                "hoverBackground": "hoverBg",
+                "hoverInactiveBackground": "hoverBg",
 
                 "underlineColor": "selectionBg",
                 "inactiveUnderlineColor": "selectionBg"
             },
 
             "Button": {
-                "hoverBackground": "hoverBorder",
+                "hoverBackground": "hoverBg",
                 "selectedBackground": "activeBg",
                 "selectedForeground": "activeFg"
             }
