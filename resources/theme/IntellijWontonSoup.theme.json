@@ -11,6 +11,8 @@
         "activeFg": "#b6c1d0",
         "buttonBg": "#525863",
         "buttonBorder": "#78808d",
+        "buttonDisabledBg": "#484d57",
+        "buttonDisabledBorder": "#545a64",
         "defaultBg": "#5a626e",
         "defaultBorder": "#7a8697",
         "hoverBg": "#bdd7ff18",
@@ -95,6 +97,15 @@
                 "selectedBackground": "activeBg",
                 "selectedForeground": "activeFg"
             }
+        }
+    },
+
+    "icons": {
+        "ColorPalette": {
+            "Checkbox.Background.Default": "buttonBg",
+            "Checkbox.Background.Disabled": "buttonDisabledBg",
+            "Checkbox.Border.Default": "buttonBorder",
+            "Checkbox.Border.Disabled": "buttonDisabledBorder"
         }
     }
 }
