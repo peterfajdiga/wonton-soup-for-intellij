@@ -6,6 +6,7 @@
     "colors": {
         "windowBg": "#494e58",
         "windowFg": "#b6c1d0",
+        "windowSecondaryFg": "#b6c1d080",
         "separator": "#646b76",
         "selectionBg": "#78889c",
         "activeBg": "#5a606b",
@@ -31,7 +32,8 @@
             "separatorColor": "separator",
             "disabledBackground": "buttonDisabledBg",
             "inactiveBackground": "buttonDisabledBg",
-            "disabledBorderColor": "buttonDisabledBorder"
+            "disabledBorderColor": "buttonDisabledBorder",
+            "infoForeground": "windowSecondaryFg"
         },
 
         "ActionButton": {
