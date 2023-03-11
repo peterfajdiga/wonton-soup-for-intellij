@@ -4,7 +4,14 @@
     "dark": true,
     "ui": {
         "*": {
-            "background": "#494e58"
+            "background": "#494e58",
+            "borderColor": "#646b76",
+            "separatorColor": "#646b76"
+        },
+
+        "Borders": {
+            "color": "#646b76",
+            "ContrastBorderColor": "#646b76"
         }
     }
 }
