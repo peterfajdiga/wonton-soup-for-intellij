@@ -2,49 +2,59 @@
     "name": "IntellijWontonSoup",
     "author": "Peter Fajdiga",
     "dark": true,
+    "colors": {
+        "windowBg": "#494e58",
+        "separator": "#646b76",
+        "selectionBg": "#78889c",
+        "hoverBg": "#7795b3",
+        "activeBg": "#5a606b",
+        "activeFg": "#b6c1d0"
+    },
     "ui": {
         "*": {
-            "background": "#494e58",
-            "borderColor": "#646b76",
-            "separatorColor": "#646b76"
+            "background": "windowBg",
+            "borderColor": "separator",
+            "separatorColor": "separator"
         },
 
         "Borders": {
-            "color": "#646b76",
-            "ContrastBorderColor": "#646b76"
+            "color": "separator",
+            "ContrastBorderColor": "separator"
         },
 
         "DefaultTabs": {
-            "underlineColor": "#78889c",
-            "hoverBackground": "#7795b3",
-            "underlinedTabBackground": "#5a606b"
+            "underlineColor": "selectionBg",
+            "hoverBackground": "hoverBg",
+            "underlinedTabBackground": "activeBg",
+            "underlinedTabForeground": "activeFg"
         },
 
         "EditorTabs": {
-            "underlineColor": "#78889c",
-            "hoverBackground": "#7795b3",
-            "underlinedTabBackground": "#5a606b"
+            "underlineColor": "selectionBg",
+            "hoverBackground": "hoverBg",
+            "underlinedTabBackground": "activeBg",
+            "underlinedTabForeground": "activeFg"
         },
 
         "ToolWindow": {
             "Header": {
-                "background": "#5a606b",
-                "inactiveBackground": "#494e58"
+                "background": "activeBg",
+                "inactiveBackground": "windowBg"
             },
 
             "HeaderTab": {
-                "selectedInactiveBackground": "#494e58",
-                "hoverBackground": "#7795b3",
-                "hoverInactiveBackground": "#7795b3",
+                "selectedInactiveBackground": "windowBg",
+                "hoverBackground": "hoverBg",
+                "hoverInactiveBackground": "hoverBg",
 
-                "underlineColor": "#78889c",
-                "inactiveUnderlineColor": "#78889c"
+                "underlineColor": "selectionBg",
+                "inactiveUnderlineColor": "selectionBg"
             },
 
             "Button": {
-                "hoverBackground": "#7795b3",
-                "selectedBackground": "#5a606b",
-                "selectedForeground": "#b6c1d0"
+                "hoverBackground": "hoverBg",
+                "selectedBackground": "activeBg",
+                "selectedForeground": "activeFg"
             }
         }
     }
