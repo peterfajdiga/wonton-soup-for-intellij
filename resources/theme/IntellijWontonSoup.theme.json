@@ -28,7 +28,10 @@
             "background": "windowBg",
             "foreground": "windowFg",
             "borderColor": "separator",
-            "separatorColor": "separator"
+            "separatorColor": "separator",
+            "disabledBackground": "buttonDisabledBg",
+            "inactiveBackground": "buttonDisabledBg",
+            "disabledBorderColor": "buttonDisabledBorder"
         },
 
         "ActionButton": {
