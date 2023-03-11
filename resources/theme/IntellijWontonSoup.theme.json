@@ -13,6 +13,7 @@
         "buttonBg": "#525863",
         "buttonBorder": "#78808d",
         "buttonDisabledBg": "#484d57",
+        "buttonDisabledFg": "#6e7580",
         "buttonDisabledBorder": "#545a64",
         "defaultBg": "#5a626e",
         "defaultBorder": "#7a8697",
@@ -42,6 +43,8 @@
             "startBorderColor": "buttonBorder",
             "endBorderColor": "buttonBorder",
             "focusedBorderColor": "focusBorder",
+            "disabledBorderColor": "buttonDisabledBorder",
+            "disabledText": "buttonDisabledFg",
 
             "default": {
                 "startBackground": "defaultBg",
@@ -60,7 +63,8 @@
 
         "Component": {
             "focusColor": "focusBorder",
-            "focusedBorderColor": "focusBorder"
+            "focusedBorderColor": "focusBorder",
+            "disabledBorderColor": "buttonDisabledBorder"
         },
 
         "DefaultTabs": {
