@@ -32,6 +32,7 @@
 
         "DefaultTabs": {
             "underlineColor": "selectionBg",
+            "inactiveUnderlineColor": "#00000000",
             "hoverBackground": "hoverBg",
             "underlinedTabBackground": "activeBg",
             "underlinedTabForeground": "activeFg"
@@ -39,6 +40,7 @@
 
         "EditorTabs": {
             "underlineColor": "selectionBg",
+            "inactiveUnderlineColor": "#00000000",
             "hoverBackground": "hoverBg",
             "underlinedTabBackground": "activeBg",
             "underlinedTabForeground": "activeFg"
