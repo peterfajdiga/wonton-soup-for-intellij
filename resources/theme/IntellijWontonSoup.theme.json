@@ -12,6 +12,20 @@
         "Borders": {
             "color": "#646b76",
             "ContrastBorderColor": "#646b76"
+        },
+
+        "DefaultTabs": {
+            "underlineColor": "#78889c",
+            "hoverBackground": "#7795b3",
+            "background": "#3d4149",
+            "underlinedTabBackground": "#494e58"
+        },
+
+        "EditorTabs": {
+            "underlineColor": "#78889c",
+            "hoverBackground": "#7795b3",
+            "background": "#3d4149",
+            "underlinedTabBackground": "#494e58"
         }
     }
 }
