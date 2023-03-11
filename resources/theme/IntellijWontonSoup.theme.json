@@ -2,6 +2,7 @@
     "name": "IntellijWontonSoup",
     "author": "Peter Fajdiga",
     "dark": true,
+
     "colors": {
         "windowBg": "#494e58",
         "windowFg": "#b6c1d0",
@@ -19,6 +20,7 @@
         "hoverBorder": "#7795b3",
         "focusBorder": "#7d8d99"
     },
+
     "ui": {
         "*": {
             "background": "windowBg",
