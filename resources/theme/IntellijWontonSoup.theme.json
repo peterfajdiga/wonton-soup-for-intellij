@@ -4,16 +4,22 @@
     "dark": true,
     "colors": {
         "windowBg": "#494e58",
+        "windowFg": "#b6c1d0",
         "separator": "#646b76",
         "selectionBg": "#78889c",
         "hoverBg": "#7795b3",
+        "focusBg": "#7d8d99",
         "activeBg": "#5a606b",
         "activeFg": "#b6c1d0",
-        "buttonBg": "#525863"
+        "buttonBg": "#525863",
+        "buttonBorder": "#78808d",
+        "defaultBg": "#5a626e",
+        "defaultBorder": "#7a8697"
     },
     "ui": {
         "*": {
             "background": "windowBg",
+            "foreground": "windowFg",
             "borderColor": "separator",
             "separatorColor": "separator"
         },
@@ -25,9 +31,31 @@
             "pressedBorderColor": "hoverBg"
         },
 
+        "Button": {
+            "startBackground": "buttonBg",
+            "endBackground": "buttonBg",
+            "startBorderColor": "buttonBorder",
+            "endBorderColor": "buttonBorder",
+            "focusedBorderColor": "focusBg",
+
+            "default": {
+                "startBackground": "defaultBg",
+                "endBackground": "defaultBg",
+                "startBorderColor": "defaultBorder",
+                "endBorderColor": "defaultBorder",
+                "focusColor": "focusBg",
+                "focusedBorderColor": "focusBg"
+            }
+        },
+
         "Borders": {
             "color": "separator",
             "ContrastBorderColor": "separator"
+        },
+
+        "Component": {
+            "focusColor": "focusBg",
+            "focusedBorderColor": "focusBg"
         },
 
         "DefaultTabs": {
