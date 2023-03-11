@@ -26,6 +26,28 @@
             "hoverBackground": "#7795b3",
             "background": "#3d4149",
             "underlinedTabBackground": "#494e58"
+        },
+
+        "ToolWindow": {
+            "Header": {
+                "background": "#5a606b",
+                "inactiveBackground": "#494e58"
+            },
+
+            "HeaderTab": {
+                "selectedInactiveBackground": "#494e58",
+                "hoverBackground": "#7795b3",
+                "hoverInactiveBackground": "#7795b3",
+
+                "underlineColor": "#78889c",
+                "inactiveUnderlineColor": "#78889c"
+            },
+
+            "Button": {
+                "hoverBackground": "#7795b3",
+                "selectedBackground": "#5a606b",
+                "selectedForeground": "#b6c1d0"
+            }
         }
     }
 }
