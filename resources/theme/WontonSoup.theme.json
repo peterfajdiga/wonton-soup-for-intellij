@@ -118,6 +118,16 @@
                 "selectedBackground": "activeBg",
                 "selectedForeground": "activeFg"
             }
+        },
+
+        "FileColor": {
+            "Yellow": "#5c5740",
+            "Green": "#445e3b",
+            "Blue": "#475a6a",
+            "Violet": "#5c506c",
+            "Orange": "#63523a",
+            "Rose": "#664d65",
+            "Gray": "#5a5c60"
         }
     },
 
